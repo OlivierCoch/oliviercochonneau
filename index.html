@@ -1,53 +1,60 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
 
   <title>Olivier Cochonneau – Site officiel</title>
 
-  <meta name="description" content="Olivier Cochonneau - Site officiel. Présentation professionnelle, parcours et présence en ligne.">
+  <meta name="description" content="Olivier Cochonneau - Site officiel. Présentation professionnelle, innovation et propriété intellectuelle.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
 
-  <!-- Open Graph (important pour partage + crédibilité) -->
   <meta property="og:title" content="Olivier Cochonneau – Site officiel">
-  <meta property="og:description" content="Présentation professionnelle et présence en ligne officielle.">
-  <meta property="og:type" content="website">
+  <meta property="og:description" content="Présence officielle en ligne et activités professionnelles.">
 
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #ffffff;
+      background: #f7f9fc;
       color: #111;
-      line-height: 1.6;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #0a66c2, #4aa3ff);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 44px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      opacity: 0.95;
     }
 
     .container {
-      max-width: 850px;
+      max-width: 900px;
       margin: 0 auto;
-      padding: 60px 20px;
+      padding: 40px 20px;
     }
 
-    header {
-      text-align: center;
-      margin-bottom: 60px;
-    }
-
-    h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
-      font-weight: 600;
-    }
-
-    .subtitle {
-      font-size: 18px;
-      color: #444;
+    section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     }
 
     h2 {
-      margin-top: 50px;
-      font-size: 22px;
+      color: #0a66c2;
+      margin-top: 0;
     }
 
     a {
@@ -59,70 +66,81 @@
       text-decoration: underline;
     }
 
-    .links p {
+    .img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+
+    .links a {
+      display: block;
       margin: 8px 0;
     }
 
     footer {
-      margin-top: 60px;
-      font-size: 13px;
-      color: #777;
       text-align: center;
+      padding: 30px;
+      font-size: 13px;
+      color: #666;
     }
   </style>
 </head>
 
 <body>
 
+<div class="hero">
+  <h1>Olivier Cochonneau</h1>
+  <p>Intellectual Property • Innovation • Technical Systems</p>
+</div>
+
 <div class="container">
 
-  <!-- HEADER -->
-  <header>
-    <h1>Olivier Cochonneau</h1>
-    <div class="subtitle">Site officiel</div>
-  </header>
+  <section>
+    <h2>Présentation</h2>
+    <p>
+      Olivier Cochonneau est un professionnel basé en France, actif dans les domaines de la propriété intellectuelle et de l’innovation technique.
+    </p>
 
-  <!-- NAV -->
-  <p>
-    <a href="about.html">About this website</a>
-  </p>
+    <img class="img"
+         src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
+         alt="Innovation et technologie">
+  </section>
 
-  <!-- PRESENTATION -->
-  <h2>Présentation</h2>
-  <p>
-    Olivier Cochonneau est un professionnel basé en France. Ce site constitue sa présence officielle en ligne et centralise les informations publiques associées à son nom.
-  </p>
+  <section>
+    <h2>Parcours</h2>
+    <p>
+      Ce site présente une synthèse structurée du parcours professionnel et des activités liées à la propriété intellectuelle et aux systèmes techniques.
+    </p>
 
-  <h2>Parcours</h2>
-  <p>
-    Ce site a pour objectif de présenter de manière structurée le parcours et les activités professionnelles associées à Olivier Cochonneau.
-  </p>
+    <img class="img"
+         src="https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=1200&q=80"
+         alt="Documents et analyse technique">
+  </section>
 
-  <h2>Présence en ligne</h2>
-  <p>
-    Cette page constitue une source d’information officielle permettant de regrouper les éléments publics associés à ce nom.
-  </p>
+  <section>
+    <h2>Présence en ligne</h2>
 
-  <!-- LINKS -->
-  <h2>Présence en ligne</h2>
-  <div class="links">
-    <p><a href="https://about.me/oliviercochonneau" target="_blank">About.me</a></p>
-    <p><a href="https://medium.com/@oliviercochonneau" target="_blank">Medium</a></p>
-    <p><a href="https://www.linkedin.com/in/olivier-cochonneau-b4b35314/" target="_blank">LinkedIn</a></p>
-  </div>
+    <div class="links">
+      <a href="about.html">About this website</a>
+      <a href="https://about.me/oliviercochonneau" target="_blank">About.me</a>
+      <a href="https://medium.com/@olivercochonneau" target="_blank">Medium</a>
+      <a href="https://www.linkedin.com/in/oliviercochonneau/" target="_blank">LinkedIn</a>
+    </div>
+  </section>
 
-  <!-- CONTACT -->
-  <h2>Contact</h2>
-  <p>
-    <a href="https://www.linkedin.com/in/oliviercochonneau/" target="_blank">LinkedIn</a>
-  </p>
-
-  <!-- SEO SIGNAL (propre, non spammy) -->
-  <footer>
-    Olivier Cochonneau – Site officiel – France
-  </footer>
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Contact via LinkedIn :
+      <a href="https://www.linkedin.com/in/olivier-cochonneau-b4b35314/" target="_blank">Profil LinkedIn</a>
+    </p>
+  </section>
 
 </div>
+
+<footer>
+  Olivier Cochonneau – Site officiel – France
+</footer>
 
 </body>
 </html>
